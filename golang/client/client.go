@@ -10,9 +10,9 @@ import (
 	"github.com/alibabacloud-go/tea/tea"
 )
 
-func ParseInt(raw *string) (_result *int) {
+func ParseInt(raw *string) (_result *int32) {
 	num, _ := strconv.Atoi(tea.StringValue(raw))
-	return tea.Int(num)
+	return tea.Int32(int32(num))
 }
 
 func ParseFloat(raw *string) (_result *float32) {

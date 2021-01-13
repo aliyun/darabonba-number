@@ -1,5 +1,5 @@
 {
-  "name": "@alicloud/darabonba-number",
+  "name": "@darabonba/number",
   "version": "1.0.0",
   "description": "",
   "main": "dist/client.js",
