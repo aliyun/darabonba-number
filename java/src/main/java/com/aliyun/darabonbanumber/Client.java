@@ -9,6 +9,10 @@ public class Client {
         return Integer.parseInt(raw);
     }
 
+    public static Long parseLong(String raw) throws Exception {
+        return  Long.parseLong(raw);
+    }
+
     public static Float parseFloat(String raw) throws Exception {
         return Float.parseFloat(raw);
     }
