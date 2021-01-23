@@ -15,6 +15,14 @@ export default class Client {
     }
   }
 
+  static parseLong(raw: string): number {
+    if (raw.match(/^\d*$/)) {
+      return parseInt(raw);
+    } else {
+      throw "convert long err,raw is not pure int numbers."
+    }
+  }
+
   static parseFloat(raw: string): number {
     if(raw.match(/^[\.\d]*$/)){
       return parseFloat(raw);
