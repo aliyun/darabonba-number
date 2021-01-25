@@ -9,7 +9,12 @@ import (
 
 func Test_ParseInt(t *testing.T) {
 	num := ParseInt(tea.String("2"))
-	utils.AssertEqual(t, int32(2), tea.Int32Value(num))
+	utils.AssertEqual(t, 2, tea.IntValue(num))
+}
+
+func Test_ParseLong(t *testing.T) {
+	num := ParseLong(tea.String("2"))
+	utils.AssertEqual(t, int64(2), tea.Int64Value(num))
 }
 
 func Test_ParseFloat(t *testing.T) {
