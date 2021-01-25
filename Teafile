@@ -9,7 +9,7 @@
 		"csharp": "AlibabaCloud.DarabonbaNumber:1.0.0",
 		"java": "com.aliyun:darabonba-number:0.0.2",
 		"php": "alibabacloud/darabonba-number:^0.1.0",
-		"python": "alibabacloud_darabonba_number:0.0.1"
+		"python": "alibabacloud_darabonba_number:0.0.2"
 	},
 	"java": {
 		"package": "com.aliyun.darabonbanumber"
