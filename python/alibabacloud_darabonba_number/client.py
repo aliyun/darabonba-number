@@ -13,6 +13,12 @@ class Client:
         return int(raw)
 
     @staticmethod
+    def parse_lone(
+        raw: str,
+    ) -> int:
+        return int(raw)
+
+    @staticmethod
     def parse_float(
         raw: str,
     ) -> float:

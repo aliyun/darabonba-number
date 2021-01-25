@@ -7,6 +7,9 @@ class TestClient(unittest.TestCase):
     def test_parse_int(self):
         self.assertEqual(100, Client.parse_int('100'))
 
+    def test_parse_long(self):
+        self.assertEqual(100, Client.parse_long('100'))
+
     def test_parse_double(self):
         self.assertEqual(100.0, Client.parse_float('100'))
         self.assertEqual(100.1, Client.parse_float('100.1'))
