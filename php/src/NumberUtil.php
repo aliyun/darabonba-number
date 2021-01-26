@@ -38,4 +38,14 @@ class NumberUtil
     {
         return (float) $raw;
     }
+
+    /**
+     * @param mixed $raw
+     *
+     * @return string
+     */
+    public static function parseLong($raw)
+    {
+        return (string) (sprintf('%u', $raw));
+    }
 }
