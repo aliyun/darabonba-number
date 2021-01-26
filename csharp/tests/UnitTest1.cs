@@ -13,6 +13,12 @@ namespace tests
         }
 
         [Fact]
+        public void Test_ParseLong()
+        {
+            Assert.Equal(2, NumberUtil.ParseLong("2"));
+        }
+
+        [Fact]
         public void Test_ParseFloat()
         {
             Assert.Equal(2f, NumberUtil.ParseFloat("2"));

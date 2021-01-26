@@ -23,6 +23,11 @@ namespace AlibabaCloud.DarabonbaNumber
             return Convert.ToInt32(raw);
         }
 
+        public static long ParseLong(string raw)
+        {
+            return Convert.ToInt64(raw);
+        }
+
         public static float ParseFloat(string raw)
         {
             return Convert.ToSingle(raw);
