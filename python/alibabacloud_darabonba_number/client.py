@@ -13,7 +13,7 @@ class Client:
         return int(raw)
 
     @staticmethod
-    def parse_lone(
+    def parse_long(
         raw: str,
     ) -> int:
         return int(raw)
