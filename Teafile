@@ -1,7 +1,7 @@
 {
 	"scope": "darabonba",
 	"name": "Number",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"main": "./main.tea",
 	"releases": {
 		"go": "github.com/alibabacloud-go/darabonba-number/client:v1.0.2",
