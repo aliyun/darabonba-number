@@ -1,13 +1,13 @@
 {
 	"scope": "darabonba",
 	"name": "Number",
-	"version": "0.0.5",
+	"version": "0.0.6",
 	"main": "./main.tea",
 	"releases": {
 		"go": "github.com/alibabacloud-go/darabonba-number/client:v1.0.2",
 		"ts": "@darabonba/number:^1.1.0",
 		"csharp": "AlibabaCloud.DarabonbaNumber:1.0.1",
-		"java": "com.aliyun:darabonba-number:0.0.2",
+		"java": "com.aliyun:darabonba-number:0.0.3",
 		"php": "alibabacloud/darabonba-number:^0.1.0",
 		"python": "alibabacloud_darabonba_number:0.0.4"
 	},
