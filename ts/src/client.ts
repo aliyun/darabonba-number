@@ -32,11 +32,51 @@ export default class Client {
   }
 
   static parseDouble(raw: string): number {
-    if(raw.match(/^[\.\d]*$/)){
+    if (raw.match(/^[\.\d]*$/)) {
       return parseFloat(raw);
     } else {
       throw "convert double err,raw is not pure numbers."
     }
+  }
+
+  static itol(raw: number): number {
+    return raw;
+  }
+
+  static ltoi(raw: number): number {
+    return raw;
+  }
+
+  static add(val1: number, val2: number): number {
+    return val1 + val2;
+  }
+
+  static sub(val1: number, val2: number): number {
+    return val1 - val2;
+  }
+
+  static mul(val1: number, val2: number): number {
+    return val1 * val2;
+  }
+
+  static div(val1: number, val2: number): number {
+    return val1 / val2;
+  }
+
+  static gt(val1: number, val2: number): boolean {
+    return val1 > val2;
+  }
+
+  static gte(val1: number, val2: number): boolean {
+    return val1 >= val2;
+  }
+
+  static lt(val1: number, val2: number): boolean {
+    return val1 < val2;
+  }
+
+  static lte(val1: number, val2: number): boolean {
+    return val1 <= val2;
   }
 
 }

@@ -36,4 +36,29 @@ describe('Darabonba Number', function () {
             assert.deepStrictEqual(e, "convert double err,raw is not pure numbers.");
         }
     });
+
+
+    it('itol & ltoi should ok', function () {
+        assert.deepStrictEqual(Client.itol(2), 2);
+        assert.deepStrictEqual(Client.itol(3), 3);
+    });
+
+
+    it('number operate should ok', function () {
+        assert.deepStrictEqual(Client.add(2, 3), 5);
+        assert.deepStrictEqual(Client.sub(5, 3), 2);
+        assert.deepStrictEqual(Client.mul(5, 3), 15);
+        assert.deepStrictEqual(Client.div(6, 3), 2);
+        assert.deepStrictEqual(Client.gt(6, 3), true);
+        assert.deepStrictEqual(Client.gt(3, 6), false);
+        assert.deepStrictEqual(Client.gte(3, 3), true);
+        assert.deepStrictEqual(Client.gte(6, 3), true);
+        assert.deepStrictEqual(Client.gte(3, 6), false);
+
+        assert.deepStrictEqual(Client.lt(6, 3), false);
+        assert.deepStrictEqual(Client.lt(3, 6), true);
+        assert.deepStrictEqual(Client.lte(3, 3), true);
+        assert.deepStrictEqual(Client.lte(6, 3), false);
+        assert.deepStrictEqual(Client.lte(3, 6), true);
+    });
 });
