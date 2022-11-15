@@ -38,5 +38,55 @@ namespace AlibabaCloud.DarabonbaNumber
             return Convert.ToDouble(raw);
         }
 
+        public static Int64 Itol(Int32 raw)
+        {
+            return Convert.ToInt64(raw);
+        }
+
+        public static Int32 Ltoi(Int64 raw)
+        {
+            return Convert.ToInt32(raw);
+        }
+
+        public static Int64 Add(Int64 raw1,Int64 raw2)
+        {
+            return raw1 + raw2;
+        }
+
+        public static Int64 Sub(Int64 raw1, Int64 raw2)
+        {
+            return raw1 - raw2;
+        }
+
+        public static Int64 Mul(Int64 raw1, Int64 raw2)
+        {
+            return raw1 * raw2;
+        }
+
+        public static Double Div(Int64 raw1, Int64 raw2)
+        {
+            return Convert.ToDouble(raw1 / raw2);
+        }
+
+        public static Boolean Gt(Int64 raw1, Int64 raw2)
+        {
+            return raw1 > raw2;
+        }
+
+        public static Boolean Gte(Int64 raw1, Int64 raw2)
+        {
+            return raw1 >= raw2;
+        }
+
+        public static Boolean Lt(Int64 raw1, Int64 raw2)
+        {
+            return raw1 < raw2;
+        }
+
+
+        public static Boolean Lte(Int64 raw1, Int64 raw2)
+        {
+            return raw1 <= raw2;
+        }
     }
 }
