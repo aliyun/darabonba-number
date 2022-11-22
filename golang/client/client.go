@@ -30,14 +30,14 @@ func ParseDouble(raw *string) (_result *float64) {
 	return tea.Float64(f)
 }
 
-func Itol(raw *int32) (_result *int64) {
-	f := int64(tea.Int32Value(raw))
+func Itol(raw *int) (_result *int64) {
+	f := int64(tea.IntValue(raw))
 	return tea.Int64(f)
 }
 
-func Ltoi(raw *int64) (_result *int32) {
-	f := int32(tea.Int64Value(raw))
-	return tea.Int32(f)
+func Ltoi(raw *int64) (_result *int) {
+	f := int(tea.Int64Value(raw))
+	return tea.Int(f)
 }
 
 func Add(raw1 *int64, raw2 *int64) (_result *int64) {

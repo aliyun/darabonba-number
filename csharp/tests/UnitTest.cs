@@ -4,7 +4,7 @@ using Xunit;
 
 namespace tests
 {
-    public class UnitTest1
+    public class UnitTest
     {
         [Fact]
         public void Test_ParseInt()
