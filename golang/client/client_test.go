@@ -28,13 +28,13 @@ func Test_ParseDouble(t *testing.T) {
 }
 
 func Test_Itol(t *testing.T) {
-	num := Itol(tea.Int32(20))
+	num := Itol(tea.Int(20))
 	utils.AssertEqual(t, int64(20), tea.Int64Value(num))
 }
 
 func Test_Ltoi(t *testing.T) {
 	num := Ltoi(tea.Int64(922337212))
-	utils.AssertEqual(t, int32(922337212), tea.Int32Value(num))
+	utils.AssertEqual(t, int(922337212), tea.IntValue(num))
 }
 
 func Test_Add(t *testing.T) {
