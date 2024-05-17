@@ -9,7 +9,8 @@
 		"csharp": "AlibabaCloud.DarabonbaNumber:1.0.3",
 		"java": "com.aliyun:darabonba-number:0.0.3",
 		"php": "alibabacloud/darabonba-number:^0.1.0",
-		"python": "alibabacloud_darabonba_number:0.0.4"
+		"python": "alibabacloud_darabonba_number:0.0.4",
+		"swift": "alibabacloud-sdk-swift/darabonba-number:1.0.0"
 	},
 	"java": {
 		"package": "com.aliyun.darabonbanumber"
@@ -40,6 +41,16 @@
 				"scope": "alibabacloud-sdk-cpp",
 				"project": "dara-number"
 			}
+		}
+	},
+	"swift": {
+		"clientName": "Client",
+		"packageInfo": {
+			"name": "DarabonbaNumber",
+			"desc": "Alibaba Cloud Darabonba Number for Swift",
+			"github": "https://github.com/alibabacloud-sdk-swift/darabonba-number",
+			"author": "Alibaba Cloud SDK",
+			"email": "sdk-team@alibabacloud.com"
 		}
 	}
 }
